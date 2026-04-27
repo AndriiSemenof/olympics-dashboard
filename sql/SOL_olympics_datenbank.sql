@@ -1,5 +1,5 @@
 --------------------------
--- TABELLEN ERSTELLEN
+-- TABLE CREATION
 --------------------------
 
 -- Athletes
@@ -23,6 +23,7 @@ CREATE TABLE Countries (
 );
 
 -- Athlete_Event
+-- Creating a custom ENUM type for medals
 CREATE TYPE medal_enum AS ENUM ('Gold', 'Silver', 'Bronze', '');
 
 CREATE TABLE Athlete_Event (
@@ -42,11 +43,10 @@ CREATE TABLE Athlete_Event (
 
 
 --------------------------
--- TABELLEN ERSTELLEN
+-- DATA IMPORT (ETL)
 --------------------------
 
--- Nur mit Superuser-Rechten oder durch Angabe von absoluten Pfaden
--- Pfad ggf. anpassen an dein System
+-- Adjust the path to your local system before running
 
 -- Import athletes
 COPY athletes
@@ -100,7 +100,7 @@ WITH (
 SELECT * FROM athlete_event;
 
 --------------------------
--- TABELLENÜBERSICHT
+-- DATA OVERVIEW
 --------------------------
 
 
