@@ -12,7 +12,7 @@ performance, a height/weight scatter plot by sport, and the physical
 evolution of athletes from 1960 to 2016.
 
 ## Dashboard
-[View on Tableau Public] (https://public.tableau.com/views/OlympicAnalysisProject/ChampionsProfileGlobalEfficiencyPhysicalTrends?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View on Tableau Public](https://public.tableau.com/views/OlympicAnalysisProject/ChampionsProfileGlobalEfficiencyPhysicalTrends?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Tech Stack
 - PostgreSQL 17
