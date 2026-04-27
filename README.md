@@ -1,12 +1,12 @@
 # Olympics-dashboard
-Interactive PostgreSQL + Tableau dashboard analyzing Olympic Games data (1960–2016): medal efficiency by country, athlete physique trends, and sport statistics.
+Interactive PostgreSQL + Tableau dashboard analyzing Olympic Games data (1960 - 2016): medal efficiency by country, athlete physique trends, and sport statistics.
 
 # 🏅 Olympics Analytics Dashboard
 
 This project explores historical Olympic Games data through 
 an interactive analytics dashboard. The backend is a normalized 
 PostgreSQL database with four tables — Athletes, Events, Countries, 
-and Athlete_Event — loaded from CSV files. The dashboard visualizes 
+and Athlete_Event - loaded from CSV files. The dashboard visualizes 
 medal efficiency rankings by country, a world map of Olympic 
 performance, a height/weight scatter plot by sport, and the physical 
 evolution of athletes from 1960 to 2016.
@@ -15,8 +15,8 @@ evolution of athletes from 1960 to 2016.
 [View on Tableau Public](https://public.tableau.com/views/OlympicAnalysisProject/ChampionsProfileGlobalEfficiencyPhysicalTrends?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Tech Stack
-- PostgreSQL 17
-- Tableau Public
+1. PostgreSQL 17
+2. Tableau Public
 
 ## Database Schema
 See `/sql/SOL_olympics_datenbank.sql`
