@@ -5,7 +5,7 @@ Interactive PostgreSQL + Tableau dashboard analyzing Olympic Games data (1960 - 
 
 This project explores historical Olympic Games data through 
 an interactive analytics dashboard. The backend is a normalized 
-PostgreSQL database with four tables — Athletes, Events, Countries, 
+PostgreSQL database with four tables - Athletes, Events, Countries, 
 and Athlete_Event - loaded from CSV files. The dashboard visualizes 
 medal efficiency rankings by country, a world map of Olympic 
 performance, a height/weight scatter plot by sport, and the physical 
